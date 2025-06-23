@@ -7,7 +7,13 @@ __pycache__/
 env/
 
 # Data - VERY IMPORTANT
-data/
+# Ignore all files in these directories...
+data/raw/*
+data/processed/*
+
+# ...but DO NOT ignore the .gitkeep files.
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # IDE settings
 .vscode/
