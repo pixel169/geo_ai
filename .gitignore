@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+env/
+
+# Data - VERY IMPORTANT
+data/
+
+# IDE settings
+.vscode/
