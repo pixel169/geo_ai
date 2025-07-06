@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+.venv/
+env/
+
+# Data - VERY IMPORTANT
+# Ignore all files in these directories...
+data/raw/*
+data/processed/*
+
+# ...but DO NOT ignore the .gitkeep files.
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# IDE settings
+.vscode/
